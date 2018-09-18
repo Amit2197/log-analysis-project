@@ -73,7 +73,7 @@ def popular_article():
 
 # return most popular authors of all time
 def popular_authors():
-    db = psycopg2.connect(database=DBNAME)
+db = psycopg2.connect(database=DBNAME)
     c = db.cursor()
     c.execute(query2)
     posts1 = c.fetchall()
