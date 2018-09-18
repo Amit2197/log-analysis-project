@@ -18,7 +18,7 @@ The database in question is a newspaper company database where we have 3 tables;
 articles - Contains articles posted in the newspaper so far.  
 authors - Contains list of authors who have published their articles.  
 log - Stores log of every request sent to the newspaper server.  
-This project implements a single query solution for each of the question in hand. See [newsdata.py]() for more details.
+This project implements a single query solution for each of the question in hand. See [newsdata.py](newsdata.py) for more details.
 
 # Installation
 1. Install [virtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) and [Vagrant](https://www.vagrantup.com/).
